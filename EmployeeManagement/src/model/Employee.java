@@ -21,7 +21,7 @@ public class Employee {
 		this.out_time = out_time;
 	}
 
-	public int getEmp_id() {
+	/*public int getEmp_id() {
 		return emp_id;
 	}
 
@@ -68,7 +68,7 @@ public class Employee {
 	public void setOut_time(String out_time) {
 		this.out_time = out_time;
 	}
-
+*/
 	@Override
 	public String toString() {
 		return "Employee [emp_id=" + emp_id + ", mngr_id=" + mngr_id + ", emp_name=" + emp_name + ", date=" + date
