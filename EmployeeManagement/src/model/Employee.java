@@ -9,19 +9,7 @@ public class Employee {
 	private String in_time;
 	private String out_time;
 
-	public Employee() { }
-
-	public Employee(int emp_id, String emp_name, int mngr_id, String date, String in_time, String out_time) {
-		super();
-		this.emp_id = emp_id;
-		this.mngr_id = mngr_id;
-		this.emp_name = emp_name;
-		this.date = date;
-		this.in_time = in_time;
-		this.out_time = out_time;
-	}
-
-	/*public int getEmp_id() {
+	public int getEmp_id() {
 		return emp_id;
 	}
 
@@ -68,7 +56,18 @@ public class Employee {
 	public void setOut_time(String out_time) {
 		this.out_time = out_time;
 	}
-*/
+
+	public Employee() { }
+
+	public Employee(int emp_id, String emp_name, int mngr_id, String date, String in_time, String out_time) {
+		super();
+		this.emp_id = emp_id;
+		this.mngr_id = mngr_id;
+		this.emp_name = emp_name;
+		this.date = date;
+		this.in_time = in_time;
+		this.out_time = out_time;
+	}
 	@Override
 	public String toString() {
 		return "Employee [emp_id=" + emp_id + ", mngr_id=" + mngr_id + ", emp_name=" + emp_name + ", date=" + date

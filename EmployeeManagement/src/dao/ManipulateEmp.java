@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.*;
 
 import model.Employee;
 
@@ -16,7 +17,7 @@ public class ManipulateEmp{
 	
 	public static Collection<Employee> getAllEmployee() {
 
-		Collection<Employee> c = new ArrayList<Employee>();
+		List<Employee> c = new ArrayList<Employee>();
 		try {
 			PreparedStatement ps = con.prepareStatement("select * from EmployeeDetails.Employee");
 			ResultSet rs = ps.executeQuery();
