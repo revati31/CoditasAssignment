@@ -18,4 +18,5 @@ Newest version will get install on computer system.
 ##Initial Configurations :
 1. Create & maintain an excel of employee attendance
 2. Add Tomcat Sever using New>>Other>>Server
-3. 
+3. Create local repository
+4. Connect project to GitHub using Team
